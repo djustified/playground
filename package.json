@@ -1,21 +1,32 @@
 {
   "name": "playground",
-  "version": "1.1.0",
-  "description": "A Node.js starter for the Serverless Framework with async/await and unit test support",
+  "version": "1.0.0",
+  "description": "Irshads serverless playground with aws",
   "main": "handler.js",
-  "scripts": {
-    "test": "serverless-bundle test"
+  "directories": {
+    "test": "tests"
   },
-  "author": "",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
-  },
+  "dependencies": {},
   "devDependencies": {
     "serverless-bundle": "^1.2.5",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.3.3"
   },
-  "dependencies": {}
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djustified/playground.git"
+  },
+  "keywords": [
+    "irshads",
+    "playground"
+  ],
+  "author": "Irshad Djustified",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djustified/playground/issues"
+  },
+  "homepage": "https://github.com/djustified/playground#readme"
 }
